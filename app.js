@@ -3,6 +3,8 @@
   var Room   = require('./lib/types/room');
   var Weapon = require('./lib/types/weapon');
 
+  // created weapons
+
   var axe = new Weapon({
     id: 1,
     name: 'Small axe',
@@ -17,6 +19,8 @@
     sidedDie: 10
   });
 
+  // created players
+
   var gelsey = new Player({
     id: 1, 
     name: 'Gelsey the Brave',
@@ -30,6 +34,8 @@
     mainHand: sword,
     health: 100
   });
+
+  // created rooms
 
   var alley  = new Room({
     name: 'A dark alley',
